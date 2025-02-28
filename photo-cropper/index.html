@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Cropper</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Photo Cropper</h1>
+    <input type="file" id="upload" accept="image/*">
+    <div id="image-container">
+        <div id="cropped-image-container"></div> 
+        <img id="image" alt="Upload an image">
+        <div id="crop-area"></div>
+    </div>
+    <button id="crop-button">Crop</button>
+    <button id="save-button">Save</button>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
